@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1B5E20; 
+}
+
+.divider {
+    border-left: 2px solid #ddd;
+    height: 100%;
+}
+
+.about-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-links li {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.about-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.about-links a:hover {
+    color: #1B5E20;
+}
